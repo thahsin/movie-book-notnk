@@ -283,7 +283,7 @@ void book_ticket()
 	scanf("%s",name);
 	printf("\n mobile number(Please enter a vaild one.Rerun the program is the no is wrong):");
 	scanf("%d",&mobile);
-	printf("\n Total number of tickets :");
+	printf("\n Total number of tickets(max:8) :");
 	scanf("%d",&total_seat);
 	if(total_seat>8)
 	{
